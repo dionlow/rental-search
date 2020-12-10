@@ -1,0 +1,34 @@
+.container {  
+  margin-bottom: 1rem;
+}
+
+.input {
+  border: none;
+  border-bottom: 1px solid #C3E4EA;
+  transition: all 0.5s ease;
+}
+
+.input:focus,
+.input:hover,
+.input:active {
+  outline: none;
+  border-bottom: 1px solid #9013FE;
+}
+
+.input::placeholder {
+  color: #77A4AC;
+}
+
+.searchbutton {
+  background: #eee;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  transition: all 0.5s ease;
+}
+
+.searchbutton:focus,
+.searchbutton:hover,
+.searchbutton:active {
+  background: #9013FE;
+  color: white;
+}
